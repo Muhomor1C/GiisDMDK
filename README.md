@@ -48,5 +48,7 @@
   Было бы не плохо привинтить UI, но категорически нехватает времени
   
 ![IMG_20220609_235425883](https://user-images.githubusercontent.com/86445162/172951919-2e6c9c4d-25aa-4bb7-930a-83f0175b0822.jpg)
+
 ![IMG_20220610_003542349](https://user-images.githubusercontent.com/86445162/172956591-f4222b20-af57-4a02-9c47-0d002e2a46b6.jpg)
-![IMG_20220610_003536082](https://user-images.githubusercontent.com/86445162/172956598-f2016dae-bbf4-4767-9b0d-28e913971f8c.jpg)
+
+![IMG_20220610_004024628](https://user-images.githubusercontent.com/86445162/172957075-bf290e92-0300-41ac-8a32-d0f51f92d727.jpg)
