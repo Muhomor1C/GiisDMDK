@@ -1,7 +1,7 @@
 import ctypes
 
 
-def printmark(name, weight_full, weight_metall, uin, barcode):
+def printmark(name, name2, weight_full, weight_metall, uin, barcode):
     tsclibrary = ctypes.WinDLL(".//libs//TSCLIB.dll")
     tsclibrary.openportW("USB")
     tsclibrary.sendcommandW("SIZE 30 mm, 22 mm")
@@ -16,6 +16,16 @@ def printmark(name, weight_full, weight_metall, uin, barcode):
             "0",
             "Arial",
             name,
+        )  # 15 symbols
+    tsclibrary.windowsfontW(
+            "145",
+            "145",
+            "18",
+            "90",
+            "0",
+            "0",
+            "Arial",
+            name2,
         )  # 15 symbols
     tsclibrary.windowsfontW(
                 "160",

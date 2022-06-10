@@ -7,8 +7,14 @@ def find(code):
         listuin = csv.reader(fileuin)
         for row in listuin:
             if row[5] == code:
-                print()
-                printmark.printmark(row[2], row[3], row[4], row[1], row[5])
+                print("Ok")
+                name = row[2]
+                name2 = ""
+                if len(name) > 19:
+                    name2 = name[19:]
+                    name = name[0:19]
+
+                printmark.printmark(name, name2, row[3], row[4], row[1], row[5])
 
 
 if __name__ == "__main__":
