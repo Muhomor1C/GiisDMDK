@@ -13,7 +13,6 @@ def find(code):
                 if len(name) > 19:
                     name2 = name[19:]
                     name = name[0:19]
-
                 printmark.printmark(name, name2, row[3], row[4], row[1], row[5])
 
 
