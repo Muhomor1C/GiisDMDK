@@ -1,5 +1,14 @@
 # GiisDMDK
-Консольная утилита печати контрольных марок для ювелирных изделий на принтере этикеток.
+<div class="tab">
+  <button class="tablinks" onclick="openRu(event, 'RU')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<!-- Tab content -->
+<div id="RU" class="tabcontent">
+  <h3>Русский</h3>
+  <p>Консольная утилита печати контрольных марок для ювелирных изделий на принтере этикеток.
 
 Задача:
   Необходимо напечатать этикетки для ювелирных изделий, которые поступили в розничный оборот до 31.12.21(до
@@ -52,3 +61,15 @@
 ![IMG_20220610_003542349](https://user-images.githubusercontent.com/86445162/172956591-f4222b20-af57-4a02-9c47-0d002e2a46b6.jpg)
 
 ![IMG_20220610_004024628](https://user-images.githubusercontent.com/86445162/172957075-bf290e92-0300-41ac-8a32-d0f51f92d727.jpg)
+</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
