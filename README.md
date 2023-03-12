@@ -2,8 +2,8 @@
 
   <h2>GiisDMDK</h2>
 <p><a href="#anchor1">Russian</a></p>
-<p><a href="#anchor2">Polski</a></p>
-<p><a href="#anchor3">English</a></p>
+<p><a href="#anchor2">Polski(automatyczne tłumaczenie)</a></p>
+<p><a href="#anchor3">English(automatic translation)</a></p>
 
 ![IMG_20220609_235425883](https://user-images.githubusercontent.com/86445162/172951919-2e6c9c4d-25aa-4bb7-930a-83f0175b0822.jpg)
 
@@ -146,7 +146,7 @@ The order of the fields in the CSV file:
 
 0 - internal product ID(optional)
 
-1 - WIN
+1 - UIN
 
 2 - Name
 
