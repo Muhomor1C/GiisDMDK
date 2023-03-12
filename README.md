@@ -118,7 +118,7 @@ poeksperymentuj z innymi producentami.
 Format i rozmiar etykiety jest zakodowany w programie. Może kiedyś sfinalizuję ten moment.
 Nie byłoby źle przykręcić UI, ale kategorycznie brakuje czasu
 </p>
-<p id="anchor3">English</p>
+<p id="anchor3"></p>
 <h2>English</h2>
 <p>
 Console utility for printing control stamps for jewelry on a label printer.
