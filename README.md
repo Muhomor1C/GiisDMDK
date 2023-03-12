@@ -73,7 +73,7 @@ Narzędzie konsoli do drukowania znaczków kontrolnych biżuterii na drukarce et
 Zadanie:
 Konieczne jest wydrukowanie etykiet na biżuterię, które weszły do obrotu detalicznego przed 31.12.21 (do
 wprowadzenie obowiązkowego oznakowania w przedsiębiorstwach producentów. TN-resztki)
-Istnieje plik XLS z uzyskanymi z państwowego systemu inrformacyjnego kontroli drag. metalami i drag. kamieniami (GIS DMDK)
+Istnieje plik XLS z uzyskanymi z Rosyjskiego państwowego systemu inrformacyjnego kontroli drag. metalami i drag. kamieniami (GIS DMDK)
 unikalnymi kodami identyfikacyjnymi (UIN). Musisz dopasować te numery do kodów kreskowych produktów w formacie EAN13
 i napisać narzędzie do tworzenia etykiet z tym UIN w postaci kodu DataMatrix.
 
@@ -123,7 +123,7 @@ Console utility for printing control stamps for jewelry on a label printer.
 Task:
 It is necessary to print labels for jewelry that entered retail circulation before December 31, 21 (before
 the introduction of mandatory labeling at manufacturers. T.N. - remnants)
-There is an XLS file with data obtained from the state information system for the control of drag. metals and drag. stones (GIIS DMDK)
+There is an XLS file with data obtained from the state Russian information system for the control of drag. metals and drag. stones (GIIS DMDK)
 with unique identification codes (UIN). It is necessary to match these numbers with the product barcodes in the EAN13 format
 and write a utility for making labels with this UIN in the form of DataMatrix code.
 
