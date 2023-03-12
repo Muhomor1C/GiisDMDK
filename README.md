@@ -67,5 +67,53 @@
 
 
 <p id="anchor2">Polski</p>
+<p>
+Narzędzie konsoli do drukowania znaczków kontrolnych biżuterii na drukarce etykiet.
 
+Zadanie:
+Konieczne jest wydrukowanie etykiet na biżuterię, które weszły do obrotu detalicznego przed 31.12.21 (do
+wprowadzenie obowiązkowego oznakowania w przedsiębiorstwach producentów. TN-resztki)
+Istnieje plik XLS z uzyskanymi z państwowego systemu inrformacyjnego kontroli drag. metalami i drag. kamieniami (GIS DMDK)
+unikalnymi kodami identyfikacyjnymi (UIN). Musisz dopasować te numery do kodów kreskowych produktów w formacie EAN13
+i napisać narzędzie do tworzenia etykiet z tym UIN w postaci kodu DataMatrix.
+
+Decyzja:
+Klient posiada drukarkę etykiet TSC TDP-225, która została przyjęta jako podstawa.
+Dołączona jest biblioteka SDK TSCLIB.dll, za pomocą którego skonfigurowano bezpośrednie sterowanie drukarką
+pomijając menedżera drukowania systemu Windows.
+
+Pliki z danymi produktu z "1C: Sklep jubilerski" zostały przetłumaczone na CSV dla szybkości i wygody pracy i porównane z danymi z GIS.
+W końcu dostałem plik END.CSV, który ma wszystko, czego potrzebujesz. Ta praca nie jest odzwierciedlona w repozytorium. Chętnym mogę wyłowić narzędzie,
+napisane w tym celu.
+
+Ostatecznie pracownik skanuje Etykietę fabryczną produktu, a drukarka automatycznie drukuje etykietę z kodem UIN
+tak jak DataMatrix. Ponadto na etykiecie drukowana jest nazwa produktu, Waga całkowita i oddzielnie waga drag. metali, oryginalny
+Kod kreskowy i linia zagięcia, wzdłuż której etykieta jest przyklejona do nici kontrolnej produktu.
+Przy odpowiednich umiejętnościach drukowanie i klejenie etykiety zajmuje nie więcej niż 10 sekund, co jest ważne, biorąc pod uwagę ilość
+towaru (tysiące pozycji w kilku sklepach sieci klienta).
+
+Kolejność pól w pliku CSV:
+
+0-wewnętrzny identyfikator towaru(nie wymagany do wypełnienia)
+
+1-UIN
+
+2-Nazwa
+
+3-Waga całkowita
+
+4-waga metalu
+
+5-Kod kreskowy
+
+
+Etykieta 30 * 20 mm. przyklejona na pół, okazuje się, że jest to mała, zgrabna Etykieta.
+
+
+Czego nie zrobiono(TODO):
+Narzędzie powinno działać na wszystkich drukarkach TSC, ale nie ma możliwości sprawdzenia z powodu braku techniki. Jak nie ma możliwości
+poeksperymentuj z innymi producentami.
+Format i rozmiar etykiety jest zakodowany w programie. Może kiedyś sfinalizuję ten moment.
+Nie byłoby źle przykręcić UI, ale kategorycznie brakuje czasu
+</p>
 <p id="anchor3">English</p>
