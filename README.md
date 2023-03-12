@@ -12,7 +12,8 @@
 ![IMG_20220610_004024628](https://user-images.githubusercontent.com/86445162/172957075-bf290e92-0300-41ac-8a32-d0f51f92d727.jpg)
 
 
-<p id="anchor1">Russian</p>
+<p id="anchor1"></p>
+<h2>Russian</h2>
 <p>Консольная утилита печати контрольных марок для ювелирных изделий на принтере этикеток.
 
 Задача:
@@ -66,7 +67,8 @@
 
 
 
-<p id="anchor2">Polski</p>
+<p id="anchor2"></p>
+<h2>Polski</h2>
 <p>
 Narzędzie konsoli do drukowania znaczków kontrolnych biżuterii na drukarce etykiet.
 
@@ -117,6 +119,7 @@ Format i rozmiar etykiety jest zakodowany w programie. Może kiedyś sfinalizuj�
 Nie byłoby źle przykręcić UI, ale kategorycznie brakuje czasu
 </p>
 <p id="anchor3">English</p>
+<h2>English</h2>
 <p>
 Console utility for printing control stamps for jewelry on a label printer.
 
