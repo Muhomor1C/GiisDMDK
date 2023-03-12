@@ -74,8 +74,8 @@ Narzędzie konsoli do drukowania znaczków kontrolnych biżuterii na drukarce et
 
 Zadanie:
 Konieczne jest wydrukowanie etykiet na biżuterię, które weszły do obrotu detalicznego przed 31.12.21 (do
-wprowadzenie obowiązkowego oznakowania w przedsiębiorstwach producentów. TN-resztki)
-Istnieje plik XLS z uzyskanymi z Rosyjskiego państwowego systemu inrformacyjnego kontroli drag. metalami i drag. kamieniami (GIS DMDK)
+wprowadzenie obowiązkowego oznakowania w przedsiębiorstwach producentów. t.z.-resztki)
+Istnieje plik XLS z uzyskanymi z Rosyjskiego państwowego systemu inrformacyjnego kontroli metali i kamieniami szlachetnych (GIIS DMDK)
 unikalnymi kodami identyfikacyjnymi (UIN). Musisz dopasować te numery do kodów kreskowych produktów w formacie EAN13
 i napisać narzędzie do tworzenia etykiet z tym UIN w postaci kodu DataMatrix.
 
@@ -89,7 +89,7 @@ W końcu dostałem plik END.CSV, który ma wszystko, czego potrzebujesz. Ta prac
 napisane w tym celu.
 
 Ostatecznie pracownik skanuje Etykietę fabryczną produktu, a drukarka automatycznie drukuje etykietę z kodem UIN
-tak jak DataMatrix. Ponadto na etykiecie drukowana jest nazwa produktu, Waga całkowita i oddzielnie waga drag. metali, oryginalny
+tak jak DataMatrix. Ponadto na etykiecie drukowana jest nazwa produktu, Waga całkowita i oddzielnie waga metali szlachetnych, oryginalny
 Kod kreskowy i linia zagięcia, wzdłuż której etykieta jest przyklejona do nici kontrolnej produktu.
 Przy odpowiednich umiejętnościach drukowanie i klejenie etykiety zajmuje nie więcej niż 10 sekund, co jest ważne, biorąc pod uwagę ilość
 towaru (tysiące pozycji w kilku sklepach sieci klienta).
@@ -113,10 +113,10 @@ Etykieta 30 * 20 mm. przyklejona na pół, okazuje się, że jest to mała, zgra
 
 
 Czego nie zrobiono(TODO):
-Narzędzie powinno działać na wszystkich drukarkach TSC, ale nie ma możliwości sprawdzenia z powodu braku techniki. Jak nie ma możliwości
-poeksperymentuj z innymi producentami.
+Narzędzie powinno działać na wszystkich drukarkach TSC, ale nie ma możliwości sprawdzenia z powodu braku techniki. Takoż nie mam możliwości
+poeksperymentować z innymi producentami.
 Format i rozmiar etykiety jest zakodowany w programie. Może kiedyś sfinalizuję ten moment.
-Nie byłoby źle przykręcić UI, ale kategorycznie brakuje czasu
+Byłoby nie źle zrobić UI, ale kategorycznie brakuje czasu
 </p>
 <p id="anchor3"></p>
 <h2>English</h2>
